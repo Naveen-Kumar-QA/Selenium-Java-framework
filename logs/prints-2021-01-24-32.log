@@ -1,0 +1,8 @@
+13:44:02.775 [main] INFO  resources.base - driver is initialised again
+13:44:09.139 [main] INFO  resources.base - clicked login
+13:44:11.872 [main] INFO  resources.base - sent email and pass
+13:44:14.215 [main] INFO  resources.base - sent email and pass
+13:44:14.925 [main] INFO  resources.base - driver closed
+13:53:20.124 [main] INFO  resources.base - driver is initialised
+13:53:32.253 [main] DEBUG resources.base - title validated
+13:53:32.253 [main] ERROR resources.base - tittle not valid

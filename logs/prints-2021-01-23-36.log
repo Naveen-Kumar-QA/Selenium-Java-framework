@@ -1,0 +1,8 @@
+23:37:53.785 [main] INFO  resources.base - driver is initialised again
+23:38:02.483 [main] INFO  resources.base - driver closed
+23:58:08.570 [main] INFO  resources.base - driver is initialised
+23:58:19.438 [main] DEBUG resources.base - title validated
+23:58:19.438 [main] ERROR resources.base - tittle not valid
+23:58:19.575 [main] INFO  resources.base - Nav bar displayed
+23:58:20.346 [main] INFO  resources.base - driver quit
+23:58:29.214 [main] INFO  resources.base - driver is initialised again

@@ -1,0 +1,8 @@
+22:34:09.777 [main] INFO  resources.base - driver is initialised
+22:34:27.273 [main] INFO  resources.base - driver is initialised again
+22:34:29.876 [main] INFO  resources.base - driver closed
+22:37:51.481 [main] INFO  resources.base - driver is initialised
+22:38:12.190 [main] INFO  resources.base - driver is initialised again
+22:38:14.718 [main] INFO  resources.base - driver closed
+23:37:33.979 [main] INFO  resources.base - driver is initialised
+23:37:41.839 [main] INFO  resources.base - driver quit

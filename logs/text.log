@@ -1,0 +1,6 @@
+20:16:18.578 [TestNG-tests-2] INFO  resources.base - clicked login
+20:16:21.706 [TestNG-tests-2] INFO  resources.base - sent email and pass
+20:16:23.990 [TestNG-tests-2] INFO  resources.base - sent email and pass
+20:16:25.418 [TestNG-tests-2] INFO  resources.base - driver closed
+20:16:25.457 [TestNG-tests-1] INFO  resources.base - Nav bar displayed
+20:16:26.372 [TestNG-tests-1] INFO  resources.base - driver quit

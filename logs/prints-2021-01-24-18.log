@@ -1,0 +1,8 @@
+17:10:20.666 [TestNG-tests-1] INFO  resources.base - Nav bar displayed
+17:10:21.478 [TestNG-tests-1] INFO  resources.base - driver quit
+17:10:26.154 [TestNG-tests-2] INFO  resources.base - clicked login
+17:10:28.658 [TestNG-tests-2] INFO  resources.base - sent email and pass
+17:10:30.996 [TestNG-tests-2] INFO  resources.base - sent email and pass
+17:10:31.728 [TestNG-tests-2] INFO  resources.base - driver closed
+20:15:50.287 [TestNG-tests-1] INFO  resources.base - driver is initialised
+20:16:11.068 [TestNG-tests-2] INFO  resources.base - driver is initialised again

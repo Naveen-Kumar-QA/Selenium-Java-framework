@@ -1,0 +1,8 @@
+17:05:10.532 [main] INFO  resources.base - driver quit
+17:05:22.210 [main] INFO  resources.base - driver is initialised again
+17:05:29.174 [main] INFO  resources.base - clicked login
+17:05:32.278 [main] INFO  resources.base - sent email and pass
+17:05:34.813 [main] INFO  resources.base - sent email and pass
+17:05:35.536 [main] INFO  resources.base - driver closed
+17:10:07.633 [TestNG-tests-1] INFO  resources.base - driver is initialised
+17:10:17.496 [TestNG-tests-2] INFO  resources.base - driver is initialised again

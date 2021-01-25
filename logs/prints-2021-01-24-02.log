@@ -1,0 +1,9 @@
+23:58:36.661 [main] INFO  resources.base - clicked login
+23:58:39.443 [main] INFO  resources.base - sent email and pass
+23:58:41.826 [main] INFO  resources.base - sent email and pass
+23:58:42.564 [main] INFO  resources.base - driver closed
+13:43:39.541 [main] INFO  resources.base - driver is initialised
+13:43:50.630 [main] DEBUG resources.base - title validated
+13:43:50.630 [main] ERROR resources.base - tittle not valid
+13:43:50.729 [main] INFO  resources.base - Nav bar displayed
+13:43:51.467 [main] INFO  resources.base - driver quit

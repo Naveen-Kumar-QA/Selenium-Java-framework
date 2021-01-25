@@ -1,0 +1,9 @@
+13:53:32.332 [main] INFO  resources.base - Nav bar displayed
+13:53:33.253 [main] INFO  resources.base - driver quit
+13:53:42.777 [main] INFO  resources.base - driver is initialised again
+13:53:49.769 [main] INFO  resources.base - clicked login
+13:53:52.181 [main] INFO  resources.base - sent email and pass
+13:53:54.494 [main] INFO  resources.base - sent email and pass
+13:53:55.244 [main] INFO  resources.base - driver closed
+17:04:56.548 [main] INFO  resources.base - driver is initialised
+17:05:09.005 [main] INFO  resources.base - Nav bar displayed
