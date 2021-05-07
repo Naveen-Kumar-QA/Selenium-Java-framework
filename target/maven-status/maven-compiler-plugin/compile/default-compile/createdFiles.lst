@@ -1,4 +1,3 @@
+resources\base.class
 pageObject\landingpage.class
 pageObject\loginpage.class
-EndtoEnd\App.class
-resources\base.class

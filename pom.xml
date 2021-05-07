@@ -15,9 +15,13 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>1.7</maven.compiler.source>
-		<maven.compiler.target>1.7</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<aspectj.version>1.8.10</aspectj.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
 	</properties>
+
 
 	<dependencies>
 
@@ -56,11 +60,14 @@
 			<version>2.8.0</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
 		<dependency>
-			<groupId>com.aventstack</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>5.0.6</version>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-testng</artifactId>
+			<version>2.13.9</version>
 		</dependency>
+
+
 
 
 	</dependencies>
@@ -91,9 +98,26 @@
 					<version>3.8.0</version>
 				</plugin>
 				<plugin>
-					<artifactId>maven-surefire-plugin</artifactId>
-					<version>2.22.1</version>
-				</plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.1</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <testFailureIgnore>True</testFailureIgnore>
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                    </argLine>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>
 					<version>3.0.2</version>
